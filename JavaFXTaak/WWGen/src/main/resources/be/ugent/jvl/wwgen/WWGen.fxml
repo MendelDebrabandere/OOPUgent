@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+
+<?import javafx.scene.text.Font?>
+<?import java.lang.Integer?>
+<?import javafx.collections.FXCollections?>
+<HBox maxHeight="60.0" maxWidth="300.0" minHeight="60.0" minWidth="300.0" prefHeight="60.0" prefWidth="300.0" spacing="15.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ugent.jvl.wwgen.WWGenController">
+   <children>
+      <ChoiceBox fx:id="choiceBox" prefHeight="25.0" prefWidth="33.0">
+          <items>
+              <FXCollections fx:factory="observableArrayList">
+                  <Integer fx:value="8" />
+                  <Integer fx:value="12" />
+                  <Integer fx:value="16" />
+              </FXCollections>
+          </items>
+          <value>
+              <Integer fx:value="12" />
+          </value>
+      </ChoiceBox>
+       <Button onAction="#onOkButtonClick" text="OK" >
+           <font>
+               <Font size="18.0" />
+           </font>
+       </Button>
+
+       <Label fx:id="wachtwoord" text="blanco" />
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</HBox>

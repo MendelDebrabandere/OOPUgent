@@ -1,0 +1,18 @@
+﻿.alarm Anchorpane Label {
+    -fx-text-fill: red;
+}
+.alarm Label {
+    -fx-text-fill: red;
+}
+.alarm Label.errorLabel {
+     -fx-text-fill: red;
+ }
+.alarm TextField {
+    -fx-border-color: red;
+}
+Label {
+    -fx-text-fill: black;
+}
+Label.errorLabel {
+    -fx-text-fill: transparent;
+}

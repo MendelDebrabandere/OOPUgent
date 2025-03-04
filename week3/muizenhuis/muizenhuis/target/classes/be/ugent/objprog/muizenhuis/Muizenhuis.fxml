@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" stylesheets="@muizenhuis.css" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ugent.objprog.muizenhuis.MuizenhuisCompanion">
+    <ToggleButton layoutX="87.0" layoutY="47.0" mnemonicParsing="false" text="Links" AnchorPane.rightAnchor="161.0"
+                  fx:id="knopLinks"/>
+    <ToggleButton layoutX="164.0" layoutY="47.0" mnemonicParsing="false" text="Rechts" AnchorPane.leftAnchor="161.0"
+                  fx:id="knopRechts"/>
+    <Line endX="-15.0" endY="60.0" layoutX="165.0" layoutY="118.0" startX="-15.0" startY="-96.0"/>
+    <Label layoutX="32.0" layoutY="22.0" text="Sensors"/>
+    <Label layoutX="32.0" layoutY="92.0" text="Aantallen"/>
+    <Label layoutX="37.0" layoutY="130.0" styleClass="aantal" text="5" AnchorPane.rightAnchor="161.0"
+           fx:id="aantalLinks"/>
+    <Label layoutX="164.0" layoutY="130.0" styleClass="aantal" text="5" AnchorPane.leftAnchor="161.0"
+           fx:id="aantalRechts"/>
+</AnchorPane>

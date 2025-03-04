@@ -1,0 +1,22 @@
+SladderPanel {
+    -fx-spacing: 10px;
+    -fx-padding: 5px;
+    -fx-background-color: #c8e2ea;
+}
+
+BottomPanel {
+    -fx-spacing: 10px;
+    -fx-padding: 5px;
+    -fx-font-size: 20px;
+}
+
+BottomPanel Label {
+    -fx-pref-width: 250px;
+    -fx-font-size: 20px;
+}
+
+BottomPanel Button {
+    -fx-font-size: 15px;
+}
+
+

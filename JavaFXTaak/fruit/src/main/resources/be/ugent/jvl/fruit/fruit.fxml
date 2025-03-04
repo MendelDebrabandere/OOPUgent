@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+
+<?import java.lang.String?>
+<?import javafx.scene.image.Image?>
+<HBox spacing="10.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ugent.jvl.fruit.FruitController">
+   <children>
+      <ListView fx:id="lijst" prefHeight="200.0" prefWidth="200.0">
+         <String fx:value="aardbei"/>
+         <String fx:value="ajuin"/>
+         <String fx:value="watermeloen"/>
+         <String fx:value="wortel"/>
+      </ListView>
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@images/aardbei.png" />
+      </ImageView>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</HBox>

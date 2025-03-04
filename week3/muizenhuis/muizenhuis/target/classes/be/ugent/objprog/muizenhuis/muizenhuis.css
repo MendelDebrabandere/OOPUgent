@@ -1,0 +1,22 @@
+Label {
+    -fx-font-weight: bold;
+}
+
+Label.aantal {
+    -fx-font-size: 30px;
+    -fx-alignment: baseline-center;
+    -fx-background-color: darkorange;
+    -fx-text-fill: white;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+ToggleButton:selected {
+    -fx-base: red;
+}
+
+ToggleButton {
+    -fx-base: green;
+}
+
+
