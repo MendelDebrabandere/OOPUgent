@@ -8,6 +8,7 @@ public class Fraction extends Expression {
 
     private Expression top;
 
+
     private Expression bottom;
 
     public Fraction(Expression top, Expression bottom) {
@@ -36,7 +37,7 @@ public class Fraction extends Expression {
         top.computeHeightAndDepth();
         bottom.computeHeightAndDepth();
         
-        children.forEach(Expression::computeHeightAndDepth);
+        //children.forEach(Expression::computeHeightAndDepth);
 
     }
 
