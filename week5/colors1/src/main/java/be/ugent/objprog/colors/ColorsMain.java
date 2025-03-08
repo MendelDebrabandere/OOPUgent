@@ -7,5 +7,4 @@ public class ColorsMain extends FXMLMain {
     public static void main(String[] args) {
         launch(args);
     }
-
 }
