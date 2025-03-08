@@ -1,0 +1,26 @@
+TilePanel {
+    -fx-hgap: 2;
+    -fx-vgap: 2;
+}
+
+Tile {
+    -fx-pref-height: 40;
+    -fx-pref-width: 40;
+
+    -fx-background-color: beige;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+.gewapend {
+    -fx-background-color: darkgreen !important;
+    -fx-border-color: black !important;
+}
+
+.selected {
+    -fx-background-color: lightgreen;
+}
+
+.hovering {
+    -fx-border-color: orange;
+}
