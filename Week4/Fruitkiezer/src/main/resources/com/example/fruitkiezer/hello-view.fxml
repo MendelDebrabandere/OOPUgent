@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.fruitkiezer.HelloController">
+   <HBox alignment="CENTER" spacing="25.0">
+      <padding>
+         <Insets bottom="25.0" left="25.0" right="25.0" top="25.0"/>
+      </padding>
+      <ComboBox fx:id="fruitChooseBox" maxWidth="150.0" minWidth="150.0" onAction="#OnFruitSelection"
+                prefWidth="150.0"/>
+      <ImageView fx:id="fruitImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@fotos/unknown.png"/>
+      </ImageView>
+   </HBox>
+</AnchorPane>
